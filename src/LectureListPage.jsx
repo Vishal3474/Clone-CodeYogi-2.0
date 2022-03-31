@@ -26,10 +26,10 @@ function LectureListPage() {
 										</div>
 									</div>
 									<div className="wmde-markdown wmde-markdown-color flex-shrink-0 inline-block mt-3 p-1 py-2 text-sm font-medium">
-										<ul className=" px-6">
-																					<li>Responsive design with Tailwind CSS </li>
-                        <li>Introduction to Figma</li>
-                      <li> Introduction to Tailwind Config.</li>
+										<ul className=" px-6 list-disc">
+											<li>Responsive design with Tailwind CSS </li>
+											<li>Introduction to Figma</li>
+											<li> Introduction to Tailwind Config.</li>
 										</ul>
 									</div>
 								</div>
@@ -43,7 +43,7 @@ function LectureListPage() {
 							</div>
 						</li>
 
-            <li className="w-full border-2 border-gray-100 bg-white rounded-lg shadow-lg mb-5">
+						<li className="w-full border-2 border-gray-100 bg-white rounded-lg shadow-lg mb-5">
 							<div className="flex items-center justify-between w-full p-2 space-x-6">
 								<div className="flex-1">
 									<div className="flex flex-col justify-between sm:items-center sm:flex-row">
@@ -61,10 +61,12 @@ function LectureListPage() {
 										</div>
 									</div>
 									<div className="wmde-markdown wmde-markdown-color flex-shrink-0 inline-block mt-3 p-1 py-2 text-sm font-medium">
-										<ul className=" px-6">
+										<ul className=" px-6 list-disc">
 											<li>Old style classes v.s. Utility classes. </li>
-                        <li>Introduction to TailwindCSS and Tailwind Playground.</li>
-                      <li> Prettier and auto format on save in VS Code</li>
+											<li>
+												Introduction to TailwindCSS and Tailwind Playground.
+											</li>
+											<li> Prettier and auto format on save in VS Code</li>
 										</ul>
 									</div>
 								</div>
@@ -78,7 +80,7 @@ function LectureListPage() {
 							</div>
 						</li>
 
-            <li className="w-full border-2 border-gray-100 bg-white rounded-lg shadow-lg mb-5">
+						<li className="w-full border-2 border-gray-100 bg-white rounded-lg shadow-lg mb-5">
 							<div className="flex items-center justify-between w-full p-2 space-x-6">
 								<div className="flex-1">
 									<div className="flex flex-col justify-between sm:items-center sm:flex-row">
@@ -96,10 +98,10 @@ function LectureListPage() {
 										</div>
 									</div>
 									<div className="wmde-markdown wmde-markdown-color flex-shrink-0 inline-block mt-3 p-1 py-2 text-sm font-medium">
-										<ul className=" px-6">
+										<ul className=" px-6 list-disc">
 											<li>flex-grow,flex-shrink </li>
-                        <li>CSS Specificity</li>
-                      <li> Utitlity Classes</li>
+											<li>CSS Specificity</li>
+											<li> Utitlity Classes</li>
 										</ul>
 									</div>
 								</div>
@@ -113,7 +115,7 @@ function LectureListPage() {
 							</div>
 						</li>
 
-            <li className="w-full border-2 border-gray-100 bg-white rounded-lg shadow-lg mb-5">
+						<li className="w-full border-2 border-gray-100 bg-white rounded-lg shadow-lg mb-5">
 							<div className="flex items-center justify-between w-full p-2 space-x-6">
 								<div className="flex-1">
 									<div className="flex flex-col justify-between sm:items-center sm:flex-row">
@@ -131,7 +133,7 @@ function LectureListPage() {
 										</div>
 									</div>
 									<div className="wmde-markdown wmde-markdown-color flex-shrink-0 inline-block mt-3 p-1 py-2 text-sm font-medium">
-										<ul className=" px-6">
+										<ul className=" px-6 list-disc">
 											<li>Basic HTML CSS</li>
 										</ul>
 									</div>
