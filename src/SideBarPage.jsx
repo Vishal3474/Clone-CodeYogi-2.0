@@ -27,7 +27,7 @@ function SideBarPage() {
 				<a
 						href="https://app.codeyogi.io/login/"
 						className="text-white font-bold"
-						target="_blank"
+	
 					>
 						Logout
 					</a>

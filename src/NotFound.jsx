@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 function NotFound() {
 	return (
-		<div className="bg-yellow-200 flex flex-col items-center justify-center h-screen">
+		<div className="bg-gray-900 flex flex-col items-center justify-center h-screen">
       
-        <h1 className="text-6xl text-red-700">Thoda Dimak lagao yha se jao</h1>
-      <Link to="/assigments" className="text-2xl text-blue-600">Go back to do Assigments</Link>
+        <h1 className="text-5xl text-red-500">Page Not Found 404</h1>
+      <Link to="/assigments" className="text-2xl text-white rounded-xl mt-8 p-2 bg-indigo-500">Go Back To Assigments Page </Link>
     </div>
 	);
 }

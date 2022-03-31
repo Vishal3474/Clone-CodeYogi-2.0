@@ -8,9 +8,10 @@ function QuizPage() {
 					<div className="flex  ml-12 space-x-2 font-semibold text-white">
 						<span>
 							<div>
-								<a href="/lectures">
+								<a href="/NotFound">
 									<span className=" font-semibold text-white" />CodeYogi
 								</a>
+                
 							</div>
 						</span>
 						<span>|</span>
@@ -20,9 +21,11 @@ function QuizPage() {
 						<div className="flex items-center  px-1 py-2 bg-blue-600 text-white justify-center undefined">
 							<p className="ml-1">00:00</p>
 						</div>
-						<button className="px-4 py-2 text-white bg-blue-600 hover:bg-blue-300">
+						<a 
+              href="https://app.codeyogi.io/login/"
+              className="px-4 py-2 text-white bg-blue-600 hover:bg-blue-400" >
 							Logout
-						</button>
+						</a>
 					</div>
 				</div>
 			</div>
