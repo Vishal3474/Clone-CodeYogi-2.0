@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import MainLayout from './MainLayout';
 import Button from './Button';
 
