@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 function SideBarPage() {
 	return (
-		<div className="pr-2 bg-gray-800 w-52 flex flex-col h-screen justify-between ">
+		<div className="pr-2 bg-gray-800 w-64 flex flex-col h-screen justify-between ">
 			<div className="flex flex-col ml-4 ">
-				<h1 className="text-white font-extrabold text-3xl pt-6 mb-5">
+				<h1 className="text-white font-extrabold text-4xl pt-6 mb-5">
 					CodeYogi
 				</h1>
 

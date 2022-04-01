@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function QuizPage() {
 	return (
 		<div className="h-screen">
@@ -8,9 +8,9 @@ function QuizPage() {
 					<div className="flex  ml-12 space-x-2 font-semibold text-white">
 						<span>
 							<div>
-								<a href="/NotFound">
+								<Link to="/NotFound">
 									<span className=" font-semibold text-white" />CodeYogi
-								</a>
+								</Link>
                 
 							</div>
 						</span>
