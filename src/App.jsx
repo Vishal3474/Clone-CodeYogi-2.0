@@ -6,7 +6,7 @@ import {Navigate, Routes, Route } from 'react-router-dom';
 import ProfilePage from './ProfilePage';
 import MainLayout from './MainLayout';
 import NotFound from './NotFound';
-import StudentsListPage from "./StudentsListPage";
+import StudentsList from "./StudentsList";
 
 function App() {
 	return (
@@ -16,7 +16,7 @@ function App() {
 			<Route path="/" element={<MainLayout />}>
 				<Route path="lectures" element={<LectureListPage />} />
 				<Route path="assigments" element={<AssigmentListPage />} />
-        		<Route path="Students" element={<StudentsListPage/>} />
+        		<Route path="Students" element={<StudentsList/>} />
 
         
 				<Route path="profile" element={<ProfilePage />} />
