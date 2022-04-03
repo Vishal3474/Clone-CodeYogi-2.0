@@ -19,7 +19,7 @@ function StudentsList(props) {
   
     return(
         
-        <div className="h-screen bg-white ml-10">
+        <div className="h-screen bg-white ml-20">
             
             <marquee className="text-3xl text-red-500 font-semibold">CodeYogi 2.0 Students</marquee>
               <div className="flex flex-wrap ">  {students.map((u) => (

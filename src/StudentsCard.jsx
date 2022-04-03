@@ -18,7 +18,7 @@ function StudentsCard({user}) {
   "></img>
 </a>
         <a href="" target="-blank"> 
-        <img class="w-5 h-5 rounded-sm ml-5" src="https://metys.be/wp-content/themes/metys_vs2/images/linkedin_grey.gif" ></img>
+        <img class="w-5 h-5 rounded-sm ml-5" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG15.png" ></img>
         </a>
       </div>
     </div>
