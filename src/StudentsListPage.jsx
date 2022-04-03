@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 
-function StudentsList(props) {
+function StudentsListPage(props) {
   
 
     const [students, setStudents] = useState([]);
@@ -36,4 +36,4 @@ function StudentsList(props) {
     );
 }
 
-export default StudentsList;
+export default StudentsListPage;
