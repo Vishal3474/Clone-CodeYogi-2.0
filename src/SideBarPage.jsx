@@ -13,23 +13,23 @@ function SideBarPage() {
 					CodeYogi
 				</h1>
 
-				<Link  to="/quiz" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-1"><GiAbstract050/>
+				<Link  to="/quiz" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-3"><GiAbstract050/>
 					Quiz
 				</Link> 
-				<Link to="/lectures" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-1"><IoMdTv/>
+				<Link to="/lectures" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-3"><IoMdTv/>
 					Lectures
 				</Link>
-				<Link to="/assigments" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-1"> <IoMdWallet/>
+				<Link to="/assigments" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-3"> <IoMdWallet/>
 					Assigments
 				</Link>
 
-	<Link to="/Students" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-1"><GiGraduateCap/>
+	<Link to="/Students" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-3"><GiGraduateCap/>
 					Students
 				</Link>
         
 			</div>
 			<div className="flex flex-col ml-4 mb-5">
-				<Link to="/profile" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-1"> <IoIosContact />
+				<Link to="/profile" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 mb-3"> <IoIosContact />
 					Profile
 				</Link  >
 				<a
