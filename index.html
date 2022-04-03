@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
+    <script type="module" src="/@vite/client"></script>
+  <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    
     <meta charset="UTF-8" />
     <link rel="icon" type="image" href="src/favicon1.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeYogi 2.0 </title>
   </head>
-  <body>
+  
+  <style>
+
+
+#loading{
+  
+  background-size: 10%;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #000
+	url("src/L.gif")
+	 no-repeat center center;	
+	z-index: 99999;
+}
+
+
+</style>
+
+
+  
+   <body onload="myFunction()">
+<div id="loading"></div> 
+ 
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+     
+     <script>
+	
+		var preloader = document.getElementById("loading");
+		
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+     
   </body>
 </html>

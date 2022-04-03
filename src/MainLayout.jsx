@@ -8,6 +8,7 @@ function MainLayout(props) {
 			<SideBarPage />
 			<div className="p-12 bg-gray-100 grow overflow-y-scroll">
 				<Outlet />
+        
 			</div>
 		</div>
 	);
