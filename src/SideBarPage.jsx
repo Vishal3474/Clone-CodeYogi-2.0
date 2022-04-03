@@ -13,28 +13,28 @@ function SideBarPage() {
 					CodeYogi
 				</h1>
 
-				<Link  to="/quiz" className="text-white font-medium text-md"><GiAbstract050/>
+				<Link  to="/quiz" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2"><GiAbstract050/>
 					Quiz
 				</Link> 
-				<Link to="/lectures" className="text-white font-medium text-md"><IoMdTv/>
+				<Link to="/lectures" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2"><IoMdTv/>
 					Lectures
 				</Link>
-				<Link to="/assigments" className="text-white font-medium text-md"> <IoMdWallet/>
+				<Link to="/assigments" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2"> <IoMdWallet/>
 					Assigments
 				</Link>
 
-	<Link to="/Students" className="text-white font-medium text-md"><GiGraduateCap/>
+	<Link to="/Students" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2"><GiGraduateCap/>
 					Students
 				</Link>
         
 			</div>
 			<div className="flex flex-col ml-4 mb-5">
-				<Link to="/profile" className="text-white font-medium text-md"> <IoIosContact />
+				<Link to="/profile" className="text-white font-medium text-xl flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2"> <IoIosContact />
 					Profile
 				</Link  >
 				<a
 						href="https://app.codeyogi.io/login/"
-						className="text-white font-bold inline-block"
+						className="text-white font-bold inline-block flex items-center hover:bg-gray-700 hover:rounded-md hover:px-2 text-xl"
 	
 					> < FiLogOut /> 
 						Logout
