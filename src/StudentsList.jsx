@@ -10,7 +10,7 @@ function StudentsList(props) {
     const [students, setStudents] = useState([]);
       
     useEffect(() => {
-        const token = axios.get("https://randomuser.me/api/?results=9")
+        const token = axios.get("https://randomuser.me/api/?results=20")
         token.then((response) => {
             setStudents(response.data.results);
             console.log(response.data.results);
@@ -24,7 +24,7 @@ function StudentsList(props) {
         
         <div className="h-full p-10 bg-white">
             
-            <h1 className="text-2xl font-semibold">Students of batch 1</h1>
+            <marquee className="text-3xl text-red-500 font-semibold">CodeYogi 2.0 Students</marquee>
               <div className="flex flex-wrap space-x-4">  {students.map((u) => (
                     <StudentsCard user={u} />
                      ))}

@@ -1,24 +1,29 @@
 import React from "react";
-import { ImTwitter } from 'react-icons/im';
-import { FaInstagram } from 'react-icons/fa';
 
 function StudentsCard({user}) {
     return (
-        <div>
-            <div className="my-4 rounded-md shadow-sm w-72 ">
-                 <img className="w-64 h-40 pt-2 mx-auto rounded-lg" src={user.picture.large } alt="" />
-                 <div className="flex flex-col ml-4 space-y-2">
-                    <div className="font-semibold">{user.name.title} {user.name.first} {user.name.last}</div>
-                
-                    <div className="font-semibold text-indigo-500">{user.location.city} <span>,</span> {user.location.country }</div>
-                    <div className="flex pb-4 space-x-4">
-                        <a href="https://www.twitter.com"><ImTwitter /></a>
-                        <a href="https://www.instagram.com"><FaInstagram /></a>
-                    </div>
-                 </div>
-                
-            </div>
-        </div>
+<div class=" p-10  ">
+  <div class="bg-gray-300 p-10 w-80 h-80 flex flex-col justify-between items-center rounded-lg shadow-lg ">
+    <img class="w-48 h-48 object-cover rounded-full mx-auto " src={user.picture.large } alt="No image" />
+    <div class="flex justify-between items-center w-64 h-64 mt-4">
+      <div>
+        <h1 class="text-black text-xl font-bold"> {user.name.title} {user.name.first} {user.name.last}  </h1>
+        <h1 class="text-sky-400 font-bold"> {user.location.city} <span>,</span> {user.location.country } </h1>
+      </div>
+      <div class="flex">
+
+    
+        <a href="" target="-blank"  >
+<img  class="w-8 h-6" src="https://cdn.discordapp.com/attachments/944189291427430421/946749640605323294/images-removebg-preview.png
+  "></img>
+</a>
+        <a href="" target="-blank"> 
+        <img class="w-5 h-5 rounded-sm ml-5" src="https://metys.be/wp-content/themes/metys_vs2/images/linkedin_grey.gif" ></img>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
     );
 }
 
