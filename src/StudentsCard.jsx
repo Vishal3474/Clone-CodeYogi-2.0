@@ -3,12 +3,12 @@ import React from "react";
 function StudentsCard({user}) {
     return (
 <div class=" p-10  ">
-  <div class="bg-gray-300 p-10 w-80 h-80 flex flex-col justify-between items-center rounded-lg shadow-lg ">
+  <div class="bg-gray-700 p-10 w-80 h-80 flex flex-col justify-between items-center rounded-lg shadow-lg ">
     <img class="w-48 h-48 object-cover rounded-full mx-auto " src={user.picture.large } alt="No image" />
     <div class="flex justify-between items-center w-64 h-64 mt-4">
       <div>
-        <h1 class="text-black text-xl font-bold"> {user.name.title} {user.name.first} {user.name.last}  </h1>
-        <h1 class="text-sky-400 font-bold"> {user.location.city} <span>,</span> {user.location.country } </h1>
+        <h1 class="text-white text-md font-bold"> {user.name.title} {user.name.first} {user.name.last}  </h1>
+        <h1 class="text-sky-400 font-bold">{user.location.country } </h1>
       </div>
       <div class="flex">
 
