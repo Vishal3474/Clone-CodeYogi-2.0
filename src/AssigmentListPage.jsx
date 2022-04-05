@@ -3,8 +3,13 @@ import MainLayout from './MainLayout';
 
 function AssigmentListPage() {
 	return (
+
+    
 		<div>
 			<h1 className="text-xl font-semibold mb-5 mt-10">Assigment List</h1>
+
+
+      
 			<div className="bg-gray-50 flex px-4 py-4 items-center justify-center mt-2 sm:px-6 lg:px-8 ">
 				<div className="w-full max-w-4x1 space-y-8">
 					<ul className="w-full relative">
@@ -48,6 +53,12 @@ function AssigmentListPage() {
 			</div>
 
 
+
+
+
+
+
+      
 
 	<div className="bg-gray-50 flex px-4 py-4 items-center justify-center mt-2 sm:px-6 lg:px-8 ">
 				<div className="w-full max-w-4x1 space-y-8">
